@@ -17,7 +17,7 @@
 	8. fullscreenmenu
 	9. grid-css
 	10. hoverbox
-	11. page_title
+    11. page_title
 	12. post_detail
 	13. post
 	14. progress
@@ -29,7 +29,7 @@
 	20. footer
 	21. header-01
 	22. Layout
-	23. Grid Boostrap 
+	23. Grid Boostrap
 	24. Font size
 	25. Margin Padding
 	26. Swiper
@@ -2184,8 +2184,8 @@ ul {
 
 .social-icon {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     line-height: 30px;
     font-size: 12px;
     color: #333;
@@ -2200,8 +2200,9 @@ ul {
     color: #fff;
 }
 
-.social-icon__text {
-    margin-left: 6px;
+.social-icon__icon {
+    font-size: 2.5em;
+    margin-top: 10px;
 }
 
 /* 16. title
@@ -2358,6 +2359,10 @@ ul {
     text-align: center;
 }
 
+.footer__social {
+    margin-bottom: 50px;
+}
+
 .footer__coppy {
     color: #a3a3a3;
 }
@@ -2372,7 +2377,7 @@ ul {
     }
 
     .footer__social {
-        text-align: right;
+        text-align: left;
     }
 }
 
@@ -2409,6 +2414,11 @@ ul {
     -ms-flex-align: center;
     align-items: center;
     z-index: 999;
+}
+
+.header__logo {
+    height: 12vh;
+    padding-left: 2vw;
 }
 
 .navbar-toggle {
@@ -2497,7 +2507,7 @@ ul {
     padding-right: 20px;
 }
 
-/* 23. Grid Boostrap 
+/* 23. Grid Boostrap
 --------------------------------------------------------------------------------*/
 
 .no-gutters {

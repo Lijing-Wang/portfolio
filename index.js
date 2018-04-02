@@ -12,5 +12,4 @@ express()
   .get('/work', (req, res) => res.render('work'))
   .get('/blog', (req, res) => res.render('blog'))
   .get('/contact', (req, res) => res.render('contact'))
-
   .listen(PORT, () => console.log(`Listening on ${PORT}`));
